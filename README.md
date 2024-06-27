@@ -1,8 +1,12 @@
 # Use Nano
-Convenience wrapper for Gemini Nano running in Chrome preview builds with AI features switched on. 
+Convenience wrapper for Gemini Nano running in Chrome preview builds with AI features switched on.
+
+Optimized for instant and high-frequency inference.
 
 - Type declarations for the  `window.ai` object
-- Streaming interface for streaming response from the model
+- Streaming response from the model
+- Queueing of prompts 
+- Automatic canceling
 - `useNano` hook for React that immediately submits a prompt and streams the output
 
 # Usage
